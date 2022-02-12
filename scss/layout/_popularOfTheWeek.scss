@@ -5,3 +5,21 @@
   padding: 5rem 3rem;
   gap: 5rem;
 }
+
+.popular {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-between;
+  position: relative;
+  row-gap: 3rem;
+
+  .divider {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: var(--subtitle-color);
+    left: 50%;
+  }
+}

@@ -17,6 +17,7 @@
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
+    transition: all 0.2s ease;
 
     &:hover {
       box-shadow: 1px 1px 30px rgba(255,255,255,0.5);

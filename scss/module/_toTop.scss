@@ -1,0 +1,16 @@
+.toTop {
+  grid-area: toTop;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  border-bottom: 1px solid var(--subtitle-color);
+
+  &__btn {
+    width: 50px;
+    height: 50px;
+    background: var(--color-logo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -4,4 +4,20 @@
   flex-direction: column;
   padding: 0rem 3rem;
   gap: 5rem;
+
+  &__content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    row-gap: 2rem;
+  }
+
+  &__footer {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+  }
 }
+

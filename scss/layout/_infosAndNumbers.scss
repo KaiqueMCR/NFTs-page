@@ -1,10 +1,11 @@
 .infosAndNumbers {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1.5fr 1fr;
+  grid-template-rows: 1.2fr 1fr;
   grid-template-areas: 
                   "numbers infos infos"
                   "numbers banner banner";
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid var(--subtitle-color);
 }

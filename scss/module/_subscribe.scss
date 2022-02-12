@@ -1,0 +1,25 @@
+.subscribe {
+  grid-area: subscribe;
+  padding: 2rem;
+  margin: auto 0;
+  border-right: 1px solid var(--subtitle-color);
+  
+  &__input {
+    width: 70%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    border: none;
+    background: var(--black-text)
+  }
+
+  &__btn {
+    width: 28%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: 700;
+    background: var(--text-color)
+  }
+}

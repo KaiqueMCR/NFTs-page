@@ -27,7 +27,7 @@
     <title>Rocket NFTs</title>
   </head>
   <body>
-    <header>
+    <header id="top">
       <a href="/"
         ><img src="./assets/logo.svg" alt="Rocket logo" class="logo"
       /></a>
@@ -352,7 +352,7 @@
 
           <div class="artist">
             <img
-              src="./assets/artista-1.png"
+              src="./assets/artista-6.png"
               alt="Artista Diego"
               class="artist__avatar"
             />
@@ -364,10 +364,12 @@
           </div>
         </div>
 
-        <div class="bestArtists__footer">
-          <p>Ver todos os artistas</p>
-          <img src="./assets/arrow-orange.svg" alt="link artistas" />
-        </div>
+        <a href="/">
+          <div class="bestArtists__footer">
+            <p>Ver todos os artistas</p>
+            <img src="./assets/arrow-orange.svg" alt="link artistas" />
+          </div>
+        </a>
       </section>
     </main>
 
@@ -375,7 +377,7 @@
       <div class="toTop">
         <img src="./assets/logo.svg" alt="Rocket logo" />
 
-        <a href="/">
+        <a href="#top">
           <div class="toTop__btn">
             <img src="./assets/arrow-black.svg" alt="Voltar ao topo" />
           </div>
@@ -383,54 +385,49 @@
       </div>
 
       <form action="" method="POST" class="subscribe">
-        <h3>
+        <h3 class="subscribe__title">
           Fique por dentro de <span class="highlight">todas as novidades</span>
         </h3>
 
-        <input type="text" placeholder="nft@rocketseat.com.br" />
+        <input
+          type="text"
+          placeholder="nft@rocketseat.com.br"
+          class="subscribe__input"
+        />
 
-        <button type="submit">Enviar</button>
+        <button type="submit" class="subscribe__btn">Enviar</button>
       </form>
 
       <div class="listNavigation">
-        <ul class="listNavigation__col">
-          <li>
-            <a href="/">Empresa</a>
+        <div class="listNavigation__col">
+          <ul class="listNavigation__items">
+            <li><a href="/" class="listNavigation__title">Empresa</a></li>
+            <li><a href="/">Sobre</a></li>
+            <li><a href="/">Serviços</a></li>
+            <li><a href="/">Time</a></li>
+            <li><a href="/">Carreira</a></li>
+          </ul>
+        </div>
 
-            <ul class="submenu">
-              <li><a href="/">Sobre</a></li>
-              <li><a href="/">Serviços</a></li>
-              <li><a href="/">Time</a></li>
-              <li><a href="/">Carreira</a></li>
-            </ul>
-          </li>
-        </ul>
+        <div class="listNavigation__col">
+          <ul class="listNavigation__items">
+            <li><a href="/" class="listNavigation__title">Mapa</a></li>
+            <li><a href="/">Galeria</a></li>
+            <li><a href="/">Populares</a></li>
+            <li><a href="/">Vendas</a></li>
+            <li><a href="/">Contato</a></li>
+          </ul>
+        </div>
 
-        <ul class="listNavigation__col">
-          <li>
-            <a href="/">Mapa</a>
-
-            <ul class="submenu">
-              <li><a href="/">Galeria</a></li>
-              <li><a href="/">Populares</a></li>
-              <li><a href="/">Vendas</a></li>
-              <li><a href="/">Contato</a></li>
-            </ul>
-          </li>
-        </ul>
-
-        <ul class="listNavigation__col">
-          <li>
-            <a href="/">Links</a>
-
-            <ul class="submenu">
-              <li><a href="/">FAQs</a></li>
-              <li><a href="/">Termos</a></li>
-              <li><a href="/">Política</a></li>
-              <li><a href="/">Ajuda</a></li>
-            </ul>
-          </li>
-        </ul>
+        <div class="listNavigation__col">
+          <ul class="listNavigation__items">
+            <li><a href="/" class="listNavigation__title">Links</a></li>
+            <li><a href="/">FAQs</a></li>
+            <li><a href="/">Termos</a></li>
+            <li><a href="/">Política</a></li>
+            <li><a href="/">Ajuda</a></li>
+          </ul>
+        </div>
       </div>
 
       <div class="socialLinks">

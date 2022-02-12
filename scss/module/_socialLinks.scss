@@ -1,0 +1,14 @@
+.socialLinks {
+  grid-area: socialLinks;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  border-top: 1px solid var(--subtitle-color);
+
+  .socials {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+}
