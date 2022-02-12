@@ -1,8 +1,6 @@
 .toTop {
   grid-area: toTop;
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 3rem;
+  @include flex-between;
   border-bottom: 1px solid var(--subtitle-color);
 
   &__btn {

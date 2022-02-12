@@ -1,9 +1,6 @@
 .socialLinks {
   grid-area: socialLinks;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 3rem;
+  @include flex-between;
   border-top: 1px solid var(--subtitle-color);
 
   .socials {

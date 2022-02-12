@@ -296,6 +296,7 @@ footer {
   grid-area: toTop;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2rem 3rem;
   border-bottom: 1px solid var(--subtitle-color);
 }
