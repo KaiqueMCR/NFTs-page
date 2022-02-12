@@ -1,0 +1,7 @@
+.popularOfTheWeek {
+  @include flex-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5rem 3rem;
+  gap: 5rem;
+}

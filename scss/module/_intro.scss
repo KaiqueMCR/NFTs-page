@@ -1,0 +1,22 @@
+.headings__intro {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.headings__avatars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.avatars__text span {
+  color: var(--text-color);
+  font-weight: 700; 
+}
+
+.headings__title {
+  width: 40%;
+}

@@ -1,5 +1,6 @@
 html {
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -34,6 +35,163 @@ h1, h2, h3 {
 body, html {
   width: 100%;
   height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--subtitle-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  padding: 2rem 3rem 0 3rem;
+  gap: 3rem 1rem;
+}
+.gallery__img {
+  width: 100%;
+  border: 1px solid var(--text-color);
+}
+
+.infosAndNumbers {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-areas: "numbers infos infos" "numbers banner banner";
+  justify-content: center;
+  align-items: center;
+}
+
+.popularOfTheWeek {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5rem 3rem;
+  gap: 5rem;
+}
+
+.bestArtists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  align-items: center;
+  flex-direction: column;
+  padding: 0rem 3rem;
+  gap: 5rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "toTop toTop" "form footerLinks" "socialLinks socialLinks";
+}
+
+.menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  list-style: none;
+}
+.menu__link {
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: var(--color-logo);
+}
+
+.connect {
+  position: relative;
+  width: 200px;
+  height: 50px;
+}
+.connect__icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.connect__btn {
+  width: 100%;
+  height: 100%;
+  text-indent: 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.connect__btn:hover {
+  box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.5);
+}
+
+.headings__intro {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.headings__avatars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatars__text span {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+.headings__title {
+  width: 40%;
+}
+
+.numbers {
+  grid-area: numbers;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  gap: 5rem;
+}
+.numbers .number {
+  font-size: 1rem;
+}
+.numbers .number__value {
+  font-size: 3rem;
+  color: var(--text-color);
+  font-weight: 700;
 }
 
 :root {

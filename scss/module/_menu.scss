@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  list-style: none;
+  
+  &__link{
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-logo);
+    }
+  }
+}

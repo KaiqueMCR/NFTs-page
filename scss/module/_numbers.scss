@@ -1,0 +1,20 @@
+.numbers {
+  grid-area: numbers;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  gap: 5rem;
+
+  .number {
+    font-size: 1rem;
+    
+    &__value {
+      font-size: 3rem;
+      color: var(--text-color);
+      font-weight: 700;
+    }
+  }
+}

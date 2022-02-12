@@ -1,0 +1,12 @@
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  padding: 2rem 3rem 0 3rem;
+  gap: 3rem 1rem;
+
+  &__img {
+    width: 100%;
+    border: 1px solid var(--text-color)
+  }
+}

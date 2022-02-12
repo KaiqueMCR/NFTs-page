@@ -2,10 +2,25 @@
 
 @import 'base/base';
 @import 'base/reset';
+@import 'base/mixings';
+@import 'base/scroll';
 
 //  All 'layout'
 
+@import 'layout/header';
+@import 'layout/headings';
+@import 'layout/gallery';
+@import 'layout/infosAndNumbers';
+@import 'layout/popularOfTheWeek';
+@import 'layout/bestArtists';
+@import 'layout/footer';
 
+//  All 'module'
+
+@import 'module/menu';
+@import 'module/connect';
+@import 'module/intro';
+@import 'module/numbers';
 
 // All 'theme'
 

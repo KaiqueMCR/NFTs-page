@@ -1,0 +1,7 @@
+.bestArtists {
+  @include flex-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 0rem 3rem;
+  gap: 5rem;
+}
