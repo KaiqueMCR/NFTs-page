@@ -1,0 +1,27 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--body-background); 
+}
+
+a {
+  color: var(--text-color);
+}
+
+button {
+  color: var(--black-text);
+  background-color: var(--text-color);
+  border: none;
+}
+
+p {
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  color: var(--text-color);
+  font-size: 3rem;
+}
+
