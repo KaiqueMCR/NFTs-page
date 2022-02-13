@@ -5,7 +5,7 @@ html {
 
 body {
   background-color: var(--body-background);
-  background-image: url(../../assets/background.png);
+  background-image: url("../assets/background.png");
   background-repeat: no-repeat;
   background-size: 100% 890px;
   background-position: top center;
@@ -254,7 +254,7 @@ footer {
   width: 100%;
   height: 100%;
   grid-area: banner;
-  background: url(../../assets/banner2.png);
+  background: url(../assets/banner2.png);
   background-size: cover;
 }
 
