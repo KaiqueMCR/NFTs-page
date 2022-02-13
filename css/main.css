@@ -170,6 +170,7 @@ footer {
 }
 .menu__link:hover {
   color: var(--color-logo);
+  text-shadow: 1px 1px 20px rgba(255, 44, 44, 0.664);
 }
 
 .connect {
@@ -180,8 +181,7 @@ footer {
 .connect__icon {
   position: absolute;
   left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 10px;
 }
 .connect__btn {
   width: 100%;
@@ -385,6 +385,17 @@ footer {
 
 .highlight {
   color: var(--color-logo);
+}
+
+img[data-src] {
+  opacity: 0;
+  transform: scale(0);
+}
+
+img[src] {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */
