@@ -1,11 +1,11 @@
 # Rocket NFTs Page
 
-NFTs have gone viral nowadays, since some very famous people started down deep on this market. This repo is another challenge provided by rocketseat on the discover trail. It is a home-page of a plataform of NFTs market. 
+NFTs have gone viral nowadays, since some very famous people started down deep on this market. This repo is another challenge provided by rocketseat on the discover trail. It is a home-page of a plataform of NFTs market.
 
 ## Screenshot
 
 <h3 align="center">
-  <img src="./assets/screenshot.jpg" />
+  <img src="./assets/screenshot.png" />
 </h3>
 
 ## About the project
