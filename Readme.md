@@ -14,7 +14,7 @@ The challenge was follow the design and care about the semantics of the project.
 <br><br>
 I tried to use SMACSS for the very first time in the project, i liked so much, it's organized and ease maintence.
 <br><br>
-I also included some lazy loading and animation features, to make it more enjoyable for the client.
+I also included some lazy loading and animation features, to make it more enjoyable for the client (changed to lib scrollreveal).
 
 ## Stack used
 
