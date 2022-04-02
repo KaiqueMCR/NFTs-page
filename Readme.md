@@ -1,5 +1,22 @@
 # Rocket NFTs Page
 
+<div align="center">
+
+![GitHub top language](https://img.shields.io/github/languages/top/KaiqueMCR/NFTs-Page?color=%23f06529)
+![GitHub](https://img.shields.io/github/license/KaiqueMCR/NFTs-page
+)
+![GitHub repo size](https://img.shields.io/github/repo-size/KaiqueMCR/NFTs-page
+)
+![GitHub issues](https://img.shields.io/github/issues/KaiqueMCR/NFTs-page
+)
+![GitHub forks](https://img.shields.io/github/forks/KaiqueMCR/NFTs-page
+)
+![GitHub stars](https://img.shields.io/github/stars/KaiqueMCR/NFTs-page
+)
+
+</div>
+
+
 NFTs have gone viral nowadays, since some very famous people started down deep on this market. This repo is another challenge provided by rocketseat on the discover trail. It is a home-page of a plataform of NFTs market.
 
 ## Screenshot
