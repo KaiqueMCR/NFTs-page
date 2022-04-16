@@ -1,5 +1,13 @@
 # Rocket NFTs Page
 
+<br>
+
+<div align="center">
+  <img src="./assets/logo.svg" />
+</div>
+
+<br>
+
 <div align="center">
 
 ![GitHub top language](https://img.shields.io/github/languages/top/KaiqueMCR/NFTs-Page?color=%23f06529)
@@ -21,9 +29,9 @@ NFTs have gone viral nowadays, since some very famous people started down deep o
 
 ## Screenshot
 
-<h3 align="center">
+<div align="center">
   <img src="./assets/screenshot.png" />
-</h3>
+</div>
 
 ## About the project
 
