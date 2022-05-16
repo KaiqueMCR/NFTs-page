@@ -1,5 +1,5 @@
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -25,7 +25,8 @@ p {
   color: var(--text-color);
 }
 
-h1, h2 {
+h1,
+h2 {
   color: var(--text-color);
   font-size: 3rem;
 }
@@ -41,7 +42,8 @@ h3 {
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   width: 100%;
   height: 100vh;
 }
@@ -92,7 +94,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1.2fr 1fr;
-  grid-template-areas: "numbers infos infos" "numbers banner banner";
+  grid-template-areas: 'numbers infos infos' 'numbers banner banner';
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid var(--subtitle-color);
@@ -154,7 +156,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "toTop toTop" "subscribe listNavigation" "socialLinks socialLinks";
+  grid-template-areas: 'toTop toTop' 'subscribe listNavigation' 'socialLinks socialLinks';
   margin-top: 5rem;
   background: var(--card-color);
 }
@@ -264,7 +266,8 @@ footer {
   gap: 1rem;
 }
 
-.card__header, .card__info {
+.card__header,
+.card__info {
   display: flex;
   justify-content: space-between;
 }
@@ -322,6 +325,7 @@ footer {
   font-size: 1rem;
   border: none;
   background: var(--black-text);
+  color: var(--text-color);
 }
 .subscribe__btn {
   width: 28%;
@@ -342,7 +346,8 @@ footer {
 .listNavigation__title {
   font-weight: 700;
 }
-.listNavigation__items, .listNavigation a {
+.listNavigation__items,
+.listNavigation a {
   text-decoration: none;
   list-style: none;
   height: 100%;
@@ -350,7 +355,8 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 }
-.listNavigation__items:hover, .listNavigation a:hover {
+.listNavigation__items:hover,
+.listNavigation a:hover {
   color: var(--color-logo);
 }
 
@@ -375,7 +381,7 @@ footer {
   --text-color: #fff;
   --subtitle-color: #5a5757;
   --black-text: #000;
-  --color-input: #0D0D0D;
+  --color-input: #0d0d0d;
 }
 
 .subtitle {
@@ -385,17 +391,6 @@ footer {
 
 .highlight {
   color: var(--color-logo);
-}
-
-img[data-src] {
-  opacity: 0;
-  transform: scale(0);
-}
-
-img[src] {
-  opacity: 1;
-  transform: scale(1);
-  transition: all 0.75s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */
