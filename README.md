@@ -30,7 +30,10 @@ NFTs have gone viral nowadays, since some very famous people started down deep o
 ## Screenshot
 
 <div align="center">
-  <img src="./assets/screenshot.png" />
+  
+[<img src="./assets/screenshot.png" />](https://kaiquemcr.github.io/NFTs-page/)
+<p align="center">Click on the image above to see in production 👆</p>
+  
 </div>
 
 ## About the project
